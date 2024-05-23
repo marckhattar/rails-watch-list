@@ -1,9 +1,10 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal mastermind, gathers a crew of female thieves to pull off the heist of the century.", poster_url: "https://image.tmdb.org/t/p/original/MvYpKlpFukTivnlBhizGbkAe3v.jpg", rating: 7.0)
+Movie.create(title: "Moonlight", overview: "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.", poster_url: "https://www.themoviedb.org/t/p/w1280/4911T5FbJ9eD2Faz5Z8cT3SUhU3.jpg", rating: 7.4)
+Movie.create(title: "Call Me by Your Name", overview: "In 1980s Italy, a romance blossoms between a seventeen-year-old student and the older man hired as his father's research assistant.", poster_url: "https://www.themoviedb.org/t/p/w1280/mZ4gBdfkhP9tvLH1DO4m4HYtiyi.jpg", rating: 7.9)
+Movie.create(title: "Blue Is the Warmest Color", overview: "Adèle's life is changed when she meets Emma, a young woman with blue hair, who will allow her to discover desire and to assert herself as a woman and as an adult.", poster_url: "https://www.themoviedb.org/t/p/w1280/kgUk1wti2cvrptIgUz0VTAtSF6w.jpg", rating: 7.8)
+Movie.create(title: "Carol", overview: "An aspiring photographer develops an intimate relationship with an older woman in 1950s New York.", poster_url: "https://www.themoviedb.org/t/p/w1280/cJeled7EyPdur6TnCA5GYg0UVna.jpg", rating: 7.5)
+Movie.create(title: "Mean Girls", overview: "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George.", poster_url: "https://www.themoviedb.org/t/p/w1280/fXm3YKXAEjx7d2tIWDg9TfRZtsU.jpg", rating: 7.1)
+Movie.create(title: "Clueless", overview: "Shallow, rich and socially successful Cher is at the top of her Beverly Hills high school's pecking scale. Seeing herself as a matchmaker, Cher first coaxes two teachers into dating each other.", poster_url: "https://www.themoviedb.org/t/p/w1280/8AwVTcgpTnmeOs4TdTWqcFDXEsA.jpg", rating: 6.9)
+Movie.create(title: "The Perks of Being a Wallflower", overview: "An introvert freshman is taken under the wings of two seniors who welcome him to the real world.", poster_url: "https://www.themoviedb.org/t/p/w1280/aKCvdFFF5n80P2VdS7d8YBwbCjh.jpg", rating: 7.9)
+Movie.create(title: "Barbie", overview: "The story of a young woman who finds her true self through adventures with Barbie and Ken in the whimsical world of fashion.", poster_url: "https://www.themoviedb.org/t/p/w1280/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg", rating: 6.5)
+Movie.create(title: "Challengers", overview: "A group of friends navigate the complexities of relationships, identity, and adulthood as they embark on a journey of self-discovery.", poster_url: "https://www.themoviedb.org/t/p/w1280/H6vke7zGiuLsz4v4RPeReb9rsv.jpg", rating: 7.2)

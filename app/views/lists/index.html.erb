@@ -1,0 +1,7 @@
+<h1>Discover all the lists:</h1>
+
+<% @lists.each do |list| %>
+  <%= link_to list_path(list) do %>
+    <div><%= list.name %></div>
+  <% end %>
+<% end %>
